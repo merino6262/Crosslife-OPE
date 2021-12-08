@@ -3,6 +3,10 @@
 
 A Crosslife Suzano Mobile é um projeto que será desenvolvido para o aplicativo mobile Android, voltado para o público da academia Crosslife, e também vai ser utilizado para o trabalho de conclusão de curso da faculdade IMPACTA.
 
+## Download (Exclusivo para professores)
+
+O aplicativo (APK) está disponivel pela plataforma discord.
+
 ## Aplicativo
 
 O aplicativo terá o foco de auxiliar e comunicar aos clientes da academia sobre a mesma, terá informações como:
@@ -36,7 +40,3 @@ O Layout foi inteiramente realizado na ferramenta [FIGMA](https://www.figma.com)
 ## Arquitetura
 Nesse projeto está sendo utilizado a arquitetura MVVM (ModelView ViewModel), Repository (DataSource) & Service
 <img src="https://developer.android.com/topic/libraries/architecture/images/final-architecture.png">
-
-### Download (Exclusivo para professores)
-
-O aplicativo (APK) está disponivel pela plataforma discord.
