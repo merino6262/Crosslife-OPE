@@ -36,3 +36,7 @@ O Layout foi inteiramente realizado na ferramenta [FIGMA](https://www.figma.com)
 ## Arquitetura
 Nesse projeto está sendo utilizado a arquitetura MVVM (ModelView ViewModel), Repository (DataSource) & Service
 <img src="https://developer.android.com/topic/libraries/architecture/images/final-architecture.png">
+
+### Download (Exclusivo para professores)
+
+O aplicativo (APK) está disponivel pela plataforma discord.
