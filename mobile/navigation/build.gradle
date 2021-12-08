@@ -1,0 +1,21 @@
+plugins {
+    id("com.android.library")
+    id("kotlin-android")
+}
+
+apply from: "../config-android.gradle"
+apply from: "../config-compose.gradle"
+
+android {
+    defaultConfig {
+        buildConfigField("String", "APP_URL", "\"https://www.crosslife.com.br\"")
+    }
+}
+dependencies {
+    implementation project(':domain')
+
+    implementation libs.kotlin.reflect
+
+    api libs.compose.navigation
+    api libs.compose.nav.hilt
+}

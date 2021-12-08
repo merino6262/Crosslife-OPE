@@ -1,0 +1,19 @@
+plugins {
+    id("com.android.library")
+    id("kotlin-android")
+    id("kotlin-kapt")
+}
+
+apply from: "../config-android.gradle"
+
+android {
+    defaultConfig {
+        buildConfigField("String", "BASE_URL", "\"https://crosslifeapi.herokuapp.com/\"")
+    }
+}
+
+dependencies {
+
+    api libs.retrofit.retrofit
+    implementation libs.retrofit.moshi
+}

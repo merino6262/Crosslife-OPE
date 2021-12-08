@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Cross Life</string>
+    <string name="host">www.crosslife.com.br</string>
+
+    <!--  General  -->
+    <string name="error_logo">error logo</string>
+    <string name="username">usuário</string>
+    <string name="password">senha</string>
+    <string name="enter">entrar</string>
+    <string name="send">enviar</string>
+    <string name="try_again">tentar novamente</string>
+    <string name="video">video</string>
+    <string name="play">play</string>
+
+    <!--  Forgot password  -->
+    <string name="forgot_password_notification_title">email enviado</string>
+    <string name="forgot_password_notification_message">verifique a caixa de entrada de seu email!</string>
+
+    <!--  Menu  -->
+    <string name="menu_item_home">home</string>
+    <string name="menu_item_search">buscar</string>
+    <string name="menu_item_chat">chat</string>
+    <string name="menu_item_profile">perfil</string>
+    <string name="search">pesquisar</string>
+    <string name="empty_notices">nenhuma noticia encontrada.</string>
+
+    <!-- Home -->
+    <string name="weekly_train">treino da semana</string>
+    <string name="notices">noticias</string>
+    <string name="chat_description">converse e tire suas dúvidas com nossos instrutores por aqui:</string>
+    <string name="chat_instructor_description">converse e tire as dúvidas de nossos clientes por aqui:</string>
+    <string name="or">ou</string>
+
+    <!-- Profile  -->
+    <string name="background">fundo</string>
+    <string name="advanced_profile">perfil avançado</string>
+    <string name="change_password">trocar senha</string>
+    <string name="leave_account">sair da conta</string>
+    <string name="old_password">senha antiga</string>
+    <string name="password_not_equals">ops! sua confirmação não está correta</string>
+
+    <!-- Change Password  -->
+    <string name="new_password">nova senha</string>
+    <string name="confirm_new_password">confirme sua nova senha</string>
+    <string name="change">trocar</string>
+    <string name="changed_password">senha alterada!</string>
+
+    <!-- Logout Dialog -->
+    <string name="logout_title">você tem certeza?</string>
+    <string name="logout_description">ao sair da sua conta, você ter que se conectar novamente.</string>
+    <string name="logout">sair</string>
+    <string name="type_your_username">digite seu usuário</string>
+
+    <!--  Forgot password  -->
+    <string name="forgot_password">esqueci a senha</string>
+    <string name="forgot_password_sent">enviado um email com sucesso!</string>
+
+    <!--  Dates  -->
+    <string name="sunday">domingo</string>
+    <string name="monday">segunda-feira</string>
+    <string name="tuesday">terça-feira</string>
+    <string name="wednesday">quarta-feira</string>
+    <string name="thursday">quinta-feira</string>
+    <string name="friday">sexta-feira</string>
+    <string name="saturday">sábado</string>
+
+    <string name="empty_error_message">preencha todos os campos corretamente</string>
+    <string name="default_error_message">ops, parece que houve um erro, tente novamente</string>
+    <string name="invalid_account_or_password">Usuário ou senha incorretos</string>
+
+    <!-- Advanced profile  -->
+    <string name="from_author">de: %s</string>
+    <string name="fat_mass">massa grossa</string>
+    <string name="slim_mass">massa fina</string>
+    <string name="muscle_mass">massa muscular</string>
+    <string name="hydration">hidratação</string>
+    <string name="bone_density">densidade óssea</string>
+    <string name="visceral_fat">gordura visceral</string>
+    <string name="basal_metabolism">metabolismo basal</string>
+
+    <string name="instructor">instrutor %d</string>
+    <string name="type_message">digite sua mensagem</string>
+
+</resources>
