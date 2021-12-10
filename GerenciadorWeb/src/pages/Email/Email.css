@@ -1,0 +1,43 @@
+
+
+  div.container{
+    padding: 22px !important;
+  }
+  .App {
+    text-align: center;
+  }
+  h2.h2{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    margin-top: 2rem !important;
+  }
+  .btn-info{
+    background: blue !important;
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    letter-spacing: 3px;
+    transition: all .3s;
+    width: 100%;
+  }
+  .btn-info:hover{
+    background: green !important;
+    outline: none !important;
+    border: none !important;
+  }
+  label.label{
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    font-size: 14px !important;
+  }
+  @media screen and (max-width: 600px) {
+    .container{
+      padding: 0 !important;
+    }
+  }
+  
