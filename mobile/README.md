@@ -7,6 +7,15 @@ A Crosslife Suzano Mobile é um projeto que será desenvolvido para o aplicativo
 
 O aplicativo (APK) está disponivel pela plataforma discord.
 
+## Contas (Temporárias)
+- Conta de aluno
+    - user: aluno
+    - senha: impacta
+
+- Conta de instrutor
+    - user: instrutor01
+    - senha: fivetech2@
+
 ## Aplicativo
 
 O aplicativo terá o foco de auxiliar e comunicar aos clientes da academia sobre a mesma, terá informações como:

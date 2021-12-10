@@ -20,6 +20,7 @@ import br.com.crosslife.navigation.BuildConfig
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.runBlocking
 import javax.inject.Inject
 
@@ -27,6 +28,7 @@ import javax.inject.Inject
 @ExperimentalFoundationApi
 @ExperimentalMaterialApi
 @ExperimentalAnimationApi
+@AndroidEntryPoint
 class CrossLifeMessageService : FirebaseMessagingService() {
 
     @Inject
