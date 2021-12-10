@@ -1,0 +1,11 @@
+.wrapperConfigNews{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+@media (max-width: 700px){
+  .wrapperConfigNews{
+    grid-template-columns: 1fr;
+  }
+}

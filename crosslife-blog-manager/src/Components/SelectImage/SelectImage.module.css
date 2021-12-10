@@ -1,0 +1,15 @@
+.wrapperImage{
+  background-color: var(--color-fourth);
+  border-radius: 0.375rem;
+  padding: 4rem 2.5rem;
+  text-align: center;
+}
+
+.wrapperImage > button{
+  font-size: 0.875rem;
+}
+
+.wrapperImage > button{
+  margin: 1rem auto 0 auto;
+}
+

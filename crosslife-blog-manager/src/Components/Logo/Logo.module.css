@@ -1,0 +1,10 @@
+.logo{
+	color: var(--color-second);
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.green{
+	color: #6BE067;
+}

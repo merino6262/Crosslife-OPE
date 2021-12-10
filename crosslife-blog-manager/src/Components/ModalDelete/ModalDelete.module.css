@@ -1,0 +1,55 @@
+.modalDelete{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  padding: 0 1rem;
+}
+
+.modalBox{
+  background-color: var(--color-first);
+  border-radius: 0.375rem;
+  max-width: 22.5rem;
+  max-height: 80vh;
+  overflow: auto;
+  margin: 10vh auto;
+}
+
+.modalHeader{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-second);
+  padding: 1rem;
+}
+
+.modalHeader > h1{
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.modalBody{
+  padding: 1rem;
+}
+
+.modalText{
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+  line-height: 1.25rem;
+}
+
+.titleNews{
+  font-weight: bold;
+}
+
+.modalForm button{
+  width: 100%;
+  font-size: 0.875rem;
+}
+
+.modalForm input{
+  font-size: 0.875rem;
+  margin-bottom: 0rem;
+}

@@ -1,0 +1,44 @@
+.listOptions{
+  position: absolute;
+  z-index: 200;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 50%);
+}
+
+.listOptions > li:hover{
+  background-color: rgba(112, 112, 112, .1);
+}
+
+.listOptions > li > a,
+.listOptions > li > button{
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.listOptionsUser{
+  background-color: var(--color-fourth);
+  top: 3rem;
+  right: 1rem;
+  width: 11.25rem;
+}
+
+.listOptionsNews{
+  background-color: var(--color-first);
+  top: 1.60rem;
+  right: 0.5rem;
+  width: 10rem;
+}
+
+.listOptionsNews > li> a,
+.listOptionsNews > li > button
+{
+	display: flex;
+  align-items: center;
+}
+
+.listOptionsNews svg{
+  margin-right: 0.375rem; 
+}
+

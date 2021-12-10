@@ -1,0 +1,30 @@
+.button{
+	display: block;
+	font-size: 1.125rem;
+	text-align: center;
+  border: 1px solid;
+	border-radius: 0.375rem;
+	padding: 0.7rem 1.2rem;
+	transition: .2s;
+}
+
+.buttonPrimary{
+	border-color: var(--color-second);
+}
+
+.buttonSecondary{
+	background: var(--color-third);
+	border-color: var(--color-third);
+}
+
+.buttonPrimary:hover,
+.buttonSecondary:hover{
+	transform: scale(1.025);
+}
+
+.buttonPrimary:disabled,
+.buttonSecondary:disabled{
+  opacity: 0.5;
+  cursor: progress;
+	transform: scale(1);
+}
